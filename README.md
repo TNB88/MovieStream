@@ -7,13 +7,12 @@ Put the preferred domain first. Keep at least one known-good fallback domain.
 The add-ons validate the file, refresh it every 15 minutes, cache the last valid
 copy, and retain built-in fallback domains if GitHub is temporarily unavailable.
 
-Example:
+Current configuration example:
 
 ```json
 {
   "version": 1,
   "tmdb_api_hosts": [
-    "new-api.example.org",
     "api.tmdb.org",
     "api.themoviedb.org"
   ]
