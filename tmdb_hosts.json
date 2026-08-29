@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "tmdb_api_hosts": [
+    "api.tmdb.org",
+    "api.themoviedb.org"
+  ]
+}
